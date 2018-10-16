@@ -40,6 +40,9 @@ int main()
 	{
 		cin>>num_coef[t1];
 		v_coef[t1] = new double[num_coef[t1]];
+	}
+	for (int t1=0; t1<num_orb; t1++)
+	{
 		for (int t2=0; t2<num_coef[t1]; t2++)
 			cin>>v_coef[t1][t2];
 	}
